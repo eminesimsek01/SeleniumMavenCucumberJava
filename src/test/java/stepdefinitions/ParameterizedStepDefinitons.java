@@ -20,6 +20,7 @@ public class ParameterizedStepDefinitons {
     public void kullaniciTitleDaGormelidir(String key) {
 
         Assert.assertTrue(Driver.getDriver().getTitle().contains(key));
+        Driver.closeDriver();
 
     }
 
