@@ -1,10 +1,14 @@
-Feature: Amazon Search Test
-  Scenario Outline:Kullanıcı aratacağı kelimeyi sonuçlarda görmelidir
-    Given Kullanıcı amazon sitesine gider
-    When Kullanıcı amazonda "" aratır
-    Then Kullanıcı arama sonuçlarında "" görmelidir.
-    And Ekran görüntüsü alır
-    And Browser kapatır
+Feature: Amazon Search Feature
+
+  Scenario Outline: Kullanici aratacagi kelimeyi sonuclarda gorebilmelidir
+    Given Kullanici amazon sitesine gider
+    When Kullanici amazonda "<kelime>" aratir
+    Then Kullanici arama sonuclarinda "<kelime>" gormelidir
+    And Kullanici ekran goruntusu alir
+    And Kullanici browser i kapatir
 
     Examples:
-      |  |
+      | kelime  |
+      | mac     |
+      | windows |
+      | linux   |
