@@ -1,16 +1,16 @@
 Feature: Google Arama Test Feature
-  Background:Kullanıcı her senaryoda google sitesinde olacaktır.
-    Given Kullanıcı google sayfasındadır
 
-  Scenario: Kullanıcı samsung aradığında samsung görmelidr
-    When kullanıcı samsung kelimesini arar
-    Then Kullanıcı sayfada samsung kelimesi geçtiğini doğrular
+  Background: Kullanici her senaryoda google sitesinde olacaktir
+    Given Kullanici google sayfasindadir
 
-  Scenario: Kullanıcı samsung aradığında cucumber görmelidr
-    When kullanıcı cucumber kelimesini arar
-    Then Kullanıcı sayfada cucumber kelimesi geçtiğini doğrular
+  Scenario: Kullanici samsung aradiginda samsung gormelidir
+    When Kullanici samsung kelimesini arar
+    Then Kullanici sayfada samsung kelimesi gectigini dogrular
 
+  Scenario: Kullanici cucumber aradiginda samsung gormelidir
+    When Kullanici cucumber kelimesini arar
+    Then Kullanici sayfada cucumber kelimesi gectigini dogrular
 
-  Scenario: Kullanıcı selenyum aradığında selenyum görmelidr
-    When kullanıcı selenyum kelimesini arar
-    Then Kullanıcı sayfada selenyum kelimesi geçtiğini doğrular
+  Scenario: Kullanici selenium aradiginda samsung gormelidir
+    When Kullanici selenium kelimesini arar
+    Then Kullanici sayfada selenium kelimesi gectigini dogrular

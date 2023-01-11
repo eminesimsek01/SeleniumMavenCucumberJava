@@ -6,3 +6,7 @@ Feature: Google Arama Feature
       When Kullanıcı "cucumber" arattığında
       Then Kullanıcı title'da "cucumber" görmelidir.
 
+  Scenario : selenium search
+    When Kullanıcı "selenium" arattığında
+    Then Kullanıcı title'da "selenium" görmelidir.
+

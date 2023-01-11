@@ -1,5 +1,6 @@
-Feature:İlk feature dosyası
+Feature: Ilk feature dosyasi
+
   Scenario: Ilk test senaryosu
-    Given Ilk feature için cucumber indirdim
-    When Senaryomu çalıştırdığımda
-    Then Senaryomun çalıştığını konsolda görmeliyim
+    Given Ilk feature icin cucumber indirdim
+    When Senaryomu calistirdigimda
+    Then Senaryomun calistigini konsolda gormeliyim
