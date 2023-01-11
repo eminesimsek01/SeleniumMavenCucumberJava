@@ -18,4 +18,19 @@ public class OhlHomePage {
     @FindBy(name="password")
     private WebElement password;
 
+    @FindBy(xpath = "//button[@type='submit']")
+    private WebElement submitButton;
+    @FindBy(className = "oxd-alert-content oxd-alert-content--error")
+    public WebElement failedText;
+    public void loginUsername (String name) {
+
+        username.sendKeys("name");
+    }
+    public void loginPassword(String sıfre){
+        password.sendKeys("sıfre");
+    }
+    public void logintıklama(){
+        submitButton.click();
+    }
+
 }
