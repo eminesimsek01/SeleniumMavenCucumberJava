@@ -59,8 +59,6 @@ public class OrangeHRMStepdefs {
             System.out.println("maps = " + maps);
         }
         Assert.assertTrue(Driver.getDriver().getCurrentUrl().contains("dashboard"));
-
-
     }
 
     @When("kullanici invalid credentials girer")
