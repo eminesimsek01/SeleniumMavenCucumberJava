@@ -10,7 +10,7 @@ Feature: User Login HRM with dataTable
   @inValidCredentials
   Scenario: TC08_Baslikli coklu satir datatable
     Given kullanici HRMLogin sayfasina gider
-    When kullanici credentials girer
+    When kullanici invalid credentials girer
       | admin_id | admin_pass | error_message       |
       | Admin1   | admin123!  | Invalid credentials |
       | Admina   | admin123a  | Invalid credentials |
